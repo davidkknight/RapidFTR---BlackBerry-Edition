@@ -34,5 +34,8 @@ abstract public class FormField {
         }
         return name;
     }
-
+    
+    public boolean isEmpty() {
+    	return true;
+    }
 }

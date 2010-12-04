@@ -117,7 +117,7 @@ public class ChildController extends Controller {
 		changeScreen(searchChildScreen);
 	}
 
-	public void searchAndDispalyChildren(SearchChildFilter searchChildFilter) {
+	public void searchAndDisplayChildren(SearchChildFilter searchChildFilter) {
 		Child children[] = childStoreService
 				.searchChildrenFromStore(searchChildFilter);
 		if(children.length!=0){

@@ -92,7 +92,7 @@ public class SearchChildScreen extends CustomScreen implements
 		searchChildFilter.setName(searchTextField.getText());
 		if (!"".equals(searchTextField.getText())) {
 			((ChildController) controller)
-					.searchAndDispalyChildren(searchChildFilter);
+					.searchAndDisplayChildren(searchChildFilter);
 		} else {
 			Dialog
 					.alert("Please enter either Child Name or Unique id, to perform search");
